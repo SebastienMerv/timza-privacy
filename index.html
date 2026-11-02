@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Timza</title>
+<meta name="description" content="Politique de confidentialité de Timza, application de suivi du temps à facturer.">
+<style>
+  :root {
+    --accent: #4A2653;
+    --bg: #FFFFFF;
+    --surface: #F7F3F8;
+    --text: #1A1A1A;
+    --muted: #6B6B6B;
+    --hairline: #E6E0E8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --accent: #B784C4;
+      --bg: #0E0A10;
+      --surface: #1A141D;
+      --text: #F2EEF3;
+      --muted: #A89DAD;
+      --hairline: #2C2430;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px 96px;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  header { padding: 64px 0 40px; }
+  .eyebrow {
+    font-size: 12px; font-weight: 700; letter-spacing: .09em;
+    text-transform: uppercase; color: var(--accent); margin: 0 0 12px;
+  }
+  h1 { font-size: 34px; line-height: 1.15; letter-spacing: -.02em; margin: 0 0 10px; }
+  .date { color: var(--muted); font-size: 15px; margin: 0; }
+  h2 {
+    font-size: 20px; letter-spacing: -.01em; margin: 44px 0 10px;
+    padding-top: 28px; border-top: 1px solid var(--hairline);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { color: var(--text); }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 7px; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  .callout {
+    background: var(--surface);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin: 0 0 8px;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  .callout strong { font-weight: 650; }
+  footer {
+    margin-top: 56px; padding-top: 24px;
+    border-top: 1px solid var(--hairline);
+    color: var(--muted); font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Timza</p>
+    <h1>Politique de confidentialité</h1>
+    <p class="date">En vigueur au 3 novembre 2026</p>
+  </header>
+
+  <div class="callout">
+    <p><strong>Timza ne collecte aucune donnée.</strong> L'application n'a pas de compte, pas de serveur et pas de service tiers. Ce que tu saisis reste sur ton appareil et, si tu l'actives, dans ta base iCloud privée — à laquelle je n'ai aucun accès.</p>
+  </div>
+
+  <h2>Ce que l'application manipule</h2>
+  <p>Timza enregistre ce que tu y saisis pour faire son travail : tes clients, leurs projets, tes taux horaires, tes entrées de temps et l'historique de ce que tu as marqué comme facturé.</p>
+  <p>Ces informations sont stockées localement sur ton appareil. Si la synchronisation iCloud est active, elles sont également enregistrées dans la base privée de ton compte iCloud, afin de suivre tes appareils Apple. Cette base appartient à ton identifiant Apple : son contenu ne m'est jamais transmis et je ne peux pas le consulter.</p>
+
+  <h2>Ce que je ne collecte pas</h2>
+  <ul>
+    <li>Aucun compte, aucune inscription, aucune adresse e-mail.</li>
+    <li>Aucune statistique d'usage, aucun outil de mesure d'audience.</li>
+    <li>Aucune publicité, aucun traceur, aucun identifiant publicitaire.</li>
+    <li>Aucune bibliothèque tierce qui transmettrait quoi que ce soit.</li>
+    <li>Aucune donnée de localisation, de contacts, de photos ni de calendrier.</li>
+  </ul>
+  <p>L'application n'envoie aucune requête vers un serveur que je contrôlerais, pour la simple raison qu'il n'en existe pas.</p>
+
+  <h2>Notifications</h2>
+  <p>Si tu l'autorises, Timza programme une notification locale pour t'avertir qu'un chronomètre tourne encore au bout du délai que tu as choisi. Elle est produite par ton appareil et ne transite par aucun serveur. Tu peux retirer cette autorisation à tout moment dans les réglages d'iOS.</p>
+
+  <h2>Abonnement</h2>
+  <p>L'abonnement Timza Pro est vendu par Apple au moyen de l'achat intégré. Le paiement, la facturation et le renouvellement sont entièrement gérés par Apple : je ne reçois ni ton moyen de paiement, ni ton nom, ni ton adresse. L'application se contente de demander au système si un abonnement est actif, et reçoit oui ou non.</p>
+  <p>Le traitement des données lié à cet achat relève de la <a href="https://www.apple.com/legal/privacy/fr-ww/">politique de confidentialité d'Apple</a>.</p>
+
+  <h2>Exports et partages</h2>
+  <p>Timza peut produire un récapitulatif de facturation ou un fichier CSV détaillé. Ces fichiers sont créés sur ton appareil et ne partent nulle part : c'est toi qui décides de les partager, et avec qui, via la feuille de partage d'iOS.</p>
+
+  <h2>Raccourcis et Siri</h2>
+  <p>Les actions exposées à l'app Raccourcis s'exécutent sur ton appareil et lisent la même base locale. Si tu utilises Siri pour les déclencher, le traitement de la voix relève d'Apple et de ses propres réglages de confidentialité.</p>
+
+  <h2>Enfants</h2>
+  <p>Timza s'adresse à des indépendants et à des professionnels. L'application ne s'adresse pas aux enfants et ne collecte sciemment aucune donnée les concernant — ce qui découle du fait qu'elle ne collecte aucune donnée du tout.</p>
+
+  <h2>Tes droits</h2>
+  <p>Le règlement européen sur la protection des données te donne un droit d'accès, de rectification, d'effacement et de portabilité sur les données personnelles qu'un responsable de traitement détient à ton sujet.</p>
+  <p>Dans le cas de Timza, je ne détiens aucune donnée te concernant : il n'y a donc rien à exporter ni à effacer de mon côté. Tes données sont entre tes mains. Tu peux les supprimer en effaçant l'application, ou vider la base depuis Réglages, dans l'application. Les données iCloud se gèrent depuis les réglages de ton identifiant Apple.</p>
+
+  <h2>Modifications</h2>
+  <p>Si cette politique change, la nouvelle version sera publiée sur cette page avec sa date d'entrée en vigueur. Les changements importants seront signalés dans les notes de mise à jour de l'application.</p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question sur cette politique ou sur l'application : <a href="mailto:info@sebastienmerv.be">info@sebastienmerv.be</a></p>
+
+  <footer>
+    <p>Timza — Sébastien Merveille · <a href="https://sebastienmerv.be">sebastienmerv.be</a></p>
+  </footer>
+</main>
+</body>
+</html>
